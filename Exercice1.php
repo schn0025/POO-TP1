@@ -1,4 +1,5 @@
 <?php
+// Schneider Arthur
 declare(strict_types = 1);
 
 // question 1
