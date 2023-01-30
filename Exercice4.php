@@ -124,6 +124,7 @@ function echange(array $tab, int $ind1, int $ind2)
         $tab[$ind1] = $tab[$ind2];
         $tab[$ind2]= $temp;
         echo "tableaux après modif \n";
+        afficheTableau($tab);
     }
     else{
         echo "Une des deux indice ne sont pas dans le tableaux \n";
